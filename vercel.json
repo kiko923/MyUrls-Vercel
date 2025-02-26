@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/short",
+      "dest": "/api/short.js"
+    },
+    {
+      "src": "/(?<shortKey>[^/]+)",
+      "dest": "/api/[shortKey].js?shortKey=$shortKey"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "MyUrls-Vercel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "ioredis": "^4.28.5",
+    "standard-as-callback": "^2.1.0"
+  }
+}
