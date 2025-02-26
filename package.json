@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
+    "formidable": "^3.5.2",
     "ioredis": "^4.28.5",
+    "multer": "^1.4.5-lts.1",
     "standard-as-callback": "^2.1.0"
   }
 }
